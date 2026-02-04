@@ -87,41 +87,42 @@ Source: MovieLens Small Dataset – GroupLens
 
 To mitigate cold-start issues:
 
-Primary: SVD-based collaborative filtering
+- Primary: SVD-based collaborative filtering
 
-Fallback: Content-based filtering using movie genres
+- Fallback: Content-based filtering using movie genres
 
-Ensures recommendations are available even for:
+- Ensures recommendations are available even for:
 
-New users
+  1. New users
 
-Newly added movies
+  2. Newly added movies
 
 This mirrors real-world recommender system architectures.
 
 ## Evaluation Metrics
-Metric	Score
-RMSE (SVD)	0.867
-Precision@5	0.698
-Recall@5	0.080
+
+Metric	       Score
+RMSE (SVD)	    0.867
+Precision@5	    0.698
+Recall@5	       0.080
 
 Interpretation:
 
-~70% of Top-5 recommendations are relevant
+- ~70% of Top-5 recommendations are relevant
 
-System prioritizes high-quality recommendations
+- System prioritizes high-quality recommendations
 
-Lower recall reflects realistic Top-N trade-offs in sparse datasets
+- Lower recall reflects realistic Top-N trade-offs in sparse datasets
 
 ## Key Insights
 
-Most ratings fall between 3 and 4
+- Most ratings fall between 3 and 4
 
-Users tend to rate movies they already expect to enjoy
+- Users tend to rate movies they already expect to enjoy
 
-SVD generalizes well in sparse environments
+- SVD generalizes well in sparse environments
 
-Hybrid strategy improves robustness and coverage
+- Hybrid strategy improves robustness and coverage
 
 ## Tech Stack
 
