@@ -104,11 +104,11 @@ This mirrors real-world recommender system architectures.
 
 Metric	       Score
 
-1. RMSE (SVD)	    0.867
+1. RMSE (SVD)	 -   0.867
 
-2. Precision@5	    0.698
+2. Precision@5	 -   0.698
 
-3.  Recall@5	    0.080
+3.  Recall@5	 -   0.080
 
 Interpretation:
 
@@ -159,21 +159,21 @@ Interpretation:
 
 ## Limitations
 
-Cold-start issues are reduced but not fully eliminated
+- Cold-start issues are reduced but not fully eliminated
 
-Limited content features (genres only)
+- Limited content features (genres only)
 
-Niche genres may be under-represented
+- Niche genres may be under-represented
 
 ## Future Work
 
-Incorporate richer metadata (actors, directors, keywords)
+- Incorporate richer metadata (actors, directors, keywords)
 
-Use weighted hybrid models for better balance
+- Use weighted hybrid models for better balance
 
-Deploy real-time recommendation pipelines
+- Deploy real-time recommendation pipelines
 
-Extend to implicit feedback (watch history, clicks)
+- Extend to implicit feedback (watch history, clicks)
 
 ## Conclusion
 
