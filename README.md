@@ -49,7 +49,17 @@ Source: MovieLens Small Dataset – GroupLens
 
 1. Exploratory Data Analysis (EDA)
 
-- Analyzed rating distributions and temporal trends
+  - Analyzed rating distributions
+
+<img width="695" height="503" alt="image" src="https://github.com/user-attachments/assets/f2b8e6ab-54a7-4032-bc1a-b90523ca4794" />
+
+Most users rate only a small number of movies, while a few highly active users contribute many ratings.
+
+  - Temporal Rating Trends
+
+<img width="1029" height="500" alt="image" src="https://github.com/user-attachments/assets/607c1c6a-1ce6-441e-9f14-3f1b8e8d6f62" />
+
+User activity varies over time, reflecting changes in engagement patterns.
 
 - Identified popularity bias and sparsity patterns
 
