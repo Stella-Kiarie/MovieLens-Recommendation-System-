@@ -47,7 +47,7 @@ Source: MovieLens Small Dataset – GroupLens
 
 ## Methodology
 
-1. Exploratory Data Analysis (EDA)
+1. Exploratory Data Analysis
 
   - Analyzed rating distributions
 
