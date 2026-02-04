@@ -57,6 +57,7 @@ Source: MovieLens Small Dataset – GroupLens
 
 - Processed genre information for content-based filtering
 
+
 2. Modeling Approaches
    
 🔹 Baseline Model
@@ -102,9 +103,12 @@ This mirrors real-world recommender system architectures.
 ## Evaluation Metrics
 
 Metric	       Score
-RMSE (SVD)	    0.867
-Precision@5	    0.698
-Recall@5	       0.080
+
+1. RMSE (SVD)	 -   0.867
+
+2. Precision@5	 -   0.698
+
+3.  Recall@5	 -   0.080
 
 Interpretation:
 
@@ -126,18 +130,17 @@ Interpretation:
 
 ## Tech Stack
 
-Python
+- Python
 
-pandas, numpy – data processing
+- pandas, numpy – data processing
 
-matplotlib, seaborn – visualization
+- matplotlib, seaborn – visualization
 
-scikit-learn – similarity computations
+- scikit-learn – similarity computations
 
-Surprise – collaborative filtering models
+- Surprise – collaborative filtering models
 
-📁 Project Structure
-├── Dataset/
+  ├── Dataset/
 │   ├── movies.csv
 │   └── ratings.csv
 ├── notebooks/
@@ -146,31 +149,31 @@ Surprise – collaborative filtering models
 
 ## Results
 
-SVD with tuning delivers the strongest predictive performance
+- SVD with tuning delivers the strongest predictive performance
 
-Hybrid approach ensures recommendations in cold-start scenarios
+- Hybrid approach ensures recommendations in cold-start scenarios
 
-Top-5 recommendations are interpretable, personalized, and relevant
+- Top-5 recommendations are interpretable, personalized, and relevant
 
-Visualizations provide actionable insights for business stakeholders
+- Visualizations provide actionable insights for business stakeholders
 
 ## Limitations
 
-Cold-start issues are reduced but not fully eliminated
+- Cold-start issues are reduced but not fully eliminated
 
-Limited content features (genres only)
+- Limited content features (genres only)
 
-Niche genres may be under-represented
+- Niche genres may be under-represented
 
 ## Future Work
 
-Incorporate richer metadata (actors, directors, keywords)
+- Incorporate richer metadata (actors, directors, keywords)
 
-Use weighted hybrid models for better balance
+- Use weighted hybrid models for better balance
 
-Deploy real-time recommendation pipelines
+- Deploy real-time recommendation pipelines
 
-Extend to implicit feedback (watch history, clicks)
+- Extend to implicit feedback (watch history, clicks)
 
 ## Conclusion
 
