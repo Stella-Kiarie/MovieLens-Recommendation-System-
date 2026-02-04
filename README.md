@@ -140,12 +140,9 @@ Interpretation:
 
 - Surprise – collaborative filtering models
 
-  ├── Dataset/
-│   ├── movies.csv
-│   └── ratings.csv
-├── notebooks/
-│   └── movie_recommendation_system.ipynb
-├── README.md
+  ## 📁 Project Structure
+
+<pre> ```text ├── Dataset/ │  │ └── presentation.pdf ├── movies.csv │ └── ratings.csv ├── notebooks/ │ └── index.ipynb ├── README.md ``` </pre>
 
 ## Results
 
