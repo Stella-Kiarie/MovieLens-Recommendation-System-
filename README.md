@@ -33,53 +33,55 @@ This project builds a personalized movie recommendation system using the MovieLe
 
 Source: MovieLens Small Dataset – GroupLens
 
-Users: 610
+- Users: 610
 
-Movies: 9,742
+- Movies: 9,742
 
-Ratings: 100,836
+- Ratings: 100,836
 
-Rating Scale: 0.5 – 5.0 (explicit feedback)
+- Rating Scale: 0.5 – 5.0 (explicit feedback)
 
-Metadata: Movie titles and genres
+- Metadata: Movie titles and genres
 
 🔹 The dataset is highly sparse (~98.3%), which motivates the use of matrix factorization and hybrid methods.
 
 ## Methodology
+
 1. Exploratory Data Analysis (EDA)
 
-Analyzed rating distributions and temporal trends
+- Analyzed rating distributions and temporal trends
 
-Identified popularity bias and sparsity patterns
+- Identified popularity bias and sparsity patterns
 
-Explored most-rated and least-rated movies
+- Explored most-rated and least-rated movies
 
-Processed genre information for content-based filtering
+- Processed genre information for content-based filtering
 
 2. Modeling Approaches
+   
 🔹 Baseline Model
 
-Predicts ratings using global and user-level averages
+- Predicts ratings using global and user-level averages
 
-RMSE: ~0.87
+- RMSE: ~0.87
 
 🔹 Item–Item Collaborative Filtering (kNN)
 
-Cosine similarity between movies
+- Cosine similarity between movies
 
-RMSE: ~0.98
+- RMSE: ~0.98
 
-Limited performance due to sparsity
+- Limited performance due to sparsity
 
 🔹 Matrix Factorization (SVD)
 
-Captures latent user preferences and movie characteristics
+- Captures latent user preferences and movie characteristics
 
-Hyperparameter tuning via GridSearchCV
+- Hyperparameter tuning via GridSearchCV
 
-Best RMSE: 0.867
+- Best RMSE: 0.867
 
-Outperformed baseline and kNN models
+- Outperformed baseline and kNN models
 
 ## Hybrid Recommendation Strategy
 
