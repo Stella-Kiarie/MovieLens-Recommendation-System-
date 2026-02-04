@@ -140,10 +140,6 @@ Interpretation:
 
 - Surprise – collaborative filtering models
 
-  ## 📁 Project Structure
-
- <pre> ```text ├── Dataset/ │ ├── movies.csv │ └── ratings.csv ├── notebooks/ │ └── movie_recommendation_system.ipynb ├── README.md ``` </pre>
-
 ## Results
 
 - SVD with tuning delivers the strongest predictive performance
