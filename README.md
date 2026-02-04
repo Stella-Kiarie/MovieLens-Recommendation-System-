@@ -7,27 +7,27 @@ This project builds a personalized movie recommendation system using the MovieLe
 
 ## Business Problem
 
-Users are overwhelmed by large movie catalogs
+- Users are overwhelmed by large movie catalogs
 
-Poor recommendations reduce engagement and retention
+- Poor recommendations reduce engagement and retention
 
-Platforms need personalized, accurate recommendations
+- Platforms need personalized, accurate recommendations
 
 ## Project Objectives
 
-Predict ratings for unseen movies
+- Predict ratings for unseen movies
 
-Generate personalized Top-5 movie recommendations
+- Generate personalized Top-5 movie recommendations
 
-Evaluate performance using:
+- Evaluate performance using:
 
-RMSE (rating prediction)
+   1. RMSE (rating prediction)
 
-Precision@5 and Recall@5 (Top-N recommendations)
+   2. Precision@5 and Recall@5 (Top-N recommendations)
 
-Address cold-start problems using a hybrid recommendation strategy
+- Address cold-start problems using a hybrid recommendation strategy
 
-Deliver actionable insights for product and analytics stakeholders
+- Deliver actionable insights for product and analytics stakeholders
 
 ## Dataset
 
