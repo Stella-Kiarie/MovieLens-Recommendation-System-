@@ -104,11 +104,11 @@ This mirrors real-world recommender system architectures.
 
 Metric	       Score
 
-RMSE (SVD)	    0.867
+1. RMSE (SVD)	    0.867
 
-Precision@5	    0.698
+2. Precision@5	    0.698
 
-Recall@5	       0.080
+3.  Recall@5	    0.080
 
 Interpretation:
 
